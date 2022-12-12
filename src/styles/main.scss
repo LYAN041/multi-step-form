@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+@import "./variables";
+@import "./sidebar";
+@import "./step1";
+@import "./step2";
+@import "./step3";
+@import "./step4";
+@import "./step5";
+
+.app{
+    width: 100vw;
+    height: 100vh;
+    background: $pastel-blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    border-radius: 15px;
+    background: $alabaster;
+    font-family: 'Ubuntu', sans-serif;
+}

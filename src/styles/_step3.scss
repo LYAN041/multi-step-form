@@ -1,0 +1,33 @@
+#content-step3{
+    position: fixed;
+    z-index: 4;
+    margin-left: 350px;
+ 
+    #title-step3{
+       color: $marine-blue;
+    }
+ 
+    #subtitle-step3{
+       color: $cool-gray;
+    }
+
+    #card-step3{
+        width: 550px;
+        height: 80px;
+    }
+
+    #card-step3:hover{
+        border-color: $purplish-blue;
+        cursor: pointer;
+    }
+
+    #card-step3-confirm{
+        @extend #card-step3;
+        border-color: $purplish-blue;
+        background-color: $magnolia;
+    }
+
+    #row-btn-step3{
+        width: 570px;
+    }
+}

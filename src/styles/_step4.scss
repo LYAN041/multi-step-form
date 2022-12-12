@@ -1,0 +1,42 @@
+#content-step4{
+    position: fixed;
+    z-index: 4;
+    margin-left: 350px;
+ 
+    #title-step4{
+       color: $marine-blue;
+    }
+ 
+    #subtitle-step4{
+       color: $cool-gray;
+    }
+
+    #card-step4{
+        width: 550px;
+        height: auto;
+        background-color: $magnolia;
+        border-radius: 5px;
+    }
+
+    #row-btn-step4{
+        width: 570px;
+        position: fixed;
+        bottom: 80px;
+    }
+
+    #price{
+        font-weight: 700;
+    }
+
+    #price-total{
+        color: $purplish-blue;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    #title-total{
+        color: $marine-blue;
+        font-size: 20px;
+
+    }
+}

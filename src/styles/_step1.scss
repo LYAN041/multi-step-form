@@ -1,0 +1,26 @@
+#content-step1{
+   position: fixed;
+   z-index: 4;
+   margin-left: 350px;
+
+   #title-step1{
+      color: $marine-blue;
+   }
+
+   #subtitle-step1{
+      color: $cool-gray;
+   }
+
+   .form-label{
+      color: $marine-blue;
+      font-weight: 500;
+   }
+}
+
+#input{
+   width: 450px;
+}
+
+#row{
+   width: 480px;
+}

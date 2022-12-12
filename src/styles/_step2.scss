@@ -1,0 +1,45 @@
+#content-step2{
+    position: fixed;
+    z-index: 4;
+    margin-left: 350px;
+ 
+    #title-step2{
+       color: $marine-blue;
+    }
+ 
+    #subtitle-step2{
+       color: $cool-gray;
+    }
+
+    #card{
+        width: 170px;
+        height: 180px;
+    }
+
+    #card:hover{
+        border-color: $purplish-blue;
+        cursor: pointer;
+    }
+
+    #card-confirm{
+        @extend #card;
+        border-color: $purplish-blue;
+        background-color: $magnolia;
+    }
+
+    #switch-text{
+        color: $marine-blue;
+    }
+
+    #row-btn{
+        width: 570px;
+    }
+}
+
+.container-step2{
+    width: 543px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: $light-gray;
+}
+

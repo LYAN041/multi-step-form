@@ -1,0 +1,33 @@
+#img-container{
+    position: absolute;
+    z-index: 1;
+}
+
+#container-sidebar{
+    position: absolute;
+    z-index: 2;
+    color: $white;
+
+    #circle{
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 15px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    #circle-active{
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 15px;
+        width: 30px;
+        height: 30px;
+        background-color: $light-blue;
+        border-color: $light-blue;
+        color: $marine-blue;
+    }
+
+    #side{
+        font-weight: 500;
+    }
+}
